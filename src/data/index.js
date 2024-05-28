@@ -13,7 +13,7 @@ const notes = [
     description: "Go to the park",
     important: false,
     status: STATUS.PENDING,
-    due_date: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
+    dueDate: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
     created_at: Date.now(),
   },
   {
@@ -22,7 +22,7 @@ const notes = [
     description: "Vacuum, dust, and tidy up",
     important: true,
     status: STATUS.IN_PROGRESS,
-    due_date: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
+    dueDate: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
     created_at: Date.now(),
   },
   {
@@ -31,7 +31,7 @@ const notes = [
     description: "Choose from the library",
     important: false,
     status: STATUS.DONE,
-    due_date: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
+    dueDate: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
     created_at: Date.now(),
   },
   {
@@ -40,7 +40,7 @@ const notes = [
     description: "Go for a run or hit the gym",
     important: true,
     status: STATUS.PENDING,
-    due_date: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
+    dueDate: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
     created_at: Date.now(),
   },
   {
@@ -49,7 +49,7 @@ const notes = [
     description: "Buy vegetables, fruits, and milk",
     important: true,
     status: STATUS.IN_PROGRESS,
-    due_date: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
+    dueDate: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
     created_at: Date.now(),
   },
   {
@@ -58,7 +58,7 @@ const notes = [
     description: "Check in and see how she's doing",
     important: true,
     status: STATUS.DONE,
-    due_date: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
+    dueDate: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
     created_at: Date.now(),
   },
   {
@@ -67,7 +67,7 @@ const notes = [
     description: "Complete the final draft",
     important: true,
     status: STATUS.PENDING,
-    due_date: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
+    dueDate: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
     created_at: Date.now(),
   },
   {
@@ -76,7 +76,7 @@ const notes = [
     description: "Electricity and water bills",
     important: true,
     status: STATUS.IN_PROGRESS,
-    due_date: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
+    dueDate: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
     created_at: Date.now(),
   },
   {
@@ -85,7 +85,7 @@ const notes = [
     description: "Decide on the destination and itinerary",
     important: false,
     status: STATUS.DONE,
-    due_date: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
+    dueDate: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
     created_at: Date.now(),
   },
   {
@@ -94,7 +94,7 @@ const notes = [
     description: "Review all the subjects",
     important: true,
     status: STATUS.PENDING,
-    due_date: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
+    dueDate: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
     created_at: Date.now(),
   }
 ];
